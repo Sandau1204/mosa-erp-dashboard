@@ -1,0 +1,12 @@
+my-first-react-app/
+├── node_modules/          📦 Các gói npm đã cài đặt
+├── public/                🌐 Tài nguyên tĩnh
+├── src/
+│   ├── App.jsx            ⚛️ Component App chính
+│   ├── App.css            🎨 Style cho App
+│   ├── main.jsx           🚀 Điểm khởi đầu render <App /> lên DOM
+│   └── assets/            🖼️ Ảnh và file tĩnh
+├── index.html             📝 Template HTML chính
+├── package.json           📦 Metadata dự án & dependencies
+├── vite.config.js         ⚙️ File cấu hình Vite
+└── README.md              📘 Tài liệu dự án
