@@ -241,7 +241,7 @@ export default function EnterpriseDashboard() {
                       : 'text-slate-300 hover:bg-slate-800 hover:text-white'
                   }`}
                 >
-                  <item.icon className={`w-5 h-5 mr-3 flex-shrink-0 ${isActive ? 'text-indigo-200' : 'text-slate-400 group-hover:text-slate-300'}`} />
+                  <item.icon className={`w-5 h-5 mr-3 shrink-0 ${isActive ? 'text-indigo-200' : 'text-slate-400 group-hover:text-slate-300'}`} />
                   {item.label}
                 </button>
               );
@@ -251,7 +251,7 @@ export default function EnterpriseDashboard() {
 
         <div className="p-4 border-t border-slate-800">
           <button className="w-full flex items-center px-3 py-2 text-sm font-medium rounded-lg text-slate-300 hover:bg-slate-800 hover:text-white transition-colors group">
-            <LogOut className="w-5 h-5 mr-3 flex-shrink-0 text-slate-400 group-hover:text-slate-300" />
+            <LogOut className="w-5 h-5 mr-3 shrink-0 text-slate-400 group-hover:text-slate-300" />
             Đăng xuất
           </button>
         </div>
